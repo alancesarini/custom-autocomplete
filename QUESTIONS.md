@@ -47,6 +47,7 @@
 -   If there is a `componentWillUnmount` call, remove it and set a `useEffect` with an empty set of dependencies. This useEffect must return a function with the code removed from componentWillUnmount
 -   If there is an interface or type for the component state, remove it, as we won't use it
 -   Replace any call to `createRef` for `useRef`
+-   Remove the `render` method to call the return statement directly
 
 10. List a few ways styles can be used with components.
 
