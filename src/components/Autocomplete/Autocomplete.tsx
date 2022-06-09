@@ -219,4 +219,4 @@ const Autocomplete = (props: AutoCompleteProps): JSX.Element => {
 	);
 };
 
-export default React.memo(Autocomplete);
+export default Autocomplete;
